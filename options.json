@@ -1,5 +1,5 @@
 [{
-  "name" : "color",
+	"name" : "color",
 	"displayname" : "边框和标题的颜色",
 	"description" : "方框、圆框和标题的的默认颜色",
 	"type" : "color",
@@ -16,19 +16,19 @@
   	"description": "设置图片文字大小",
   	"type": "number",
 	"default" : "15"
-}，{
+},{
   	"name": "titleFontSize",
   	"displayname": "文字大小",
   	"description": "设置标题文字大小",
   	"type": "number",
 	"default" : "26"
-}，{
+},{
   	"name": "textFontSize",
   	"displayname": "文字大小",
   	"description": "设置内容文字大小",
   	"type": "number",
 	"default" : "18"
-}，{
+},{
 	"name": "timeLine",
 	"displayname": "timeLine列表",
 	"description": "timeLine列表内容",
@@ -41,19 +41,19 @@
 			"description": "图片路径",
 			"type": "file",
 			"required": true
-		}，{
+		},{
 			"name": "imgTitle",
   			"displayname": "图片标题",
   			"description": "图片标题文字",
   			"type": "string",
 			"required": true
-		}，{
+		},{
 			"name": "title",
   			"displayname": "标题",
   			"description": "标题文字内容",
   			"type": "string",
 			"required": true
-		}，{
+		},{
 			"name": "text",
   			"displayname": "内容",
   			"description": "文字内容",
