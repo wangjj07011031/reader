@@ -6,8 +6,8 @@
 	"default" : "#41838e"
 },{
 	"name" : "colorChecked",
-	"displayname" : "边框颜色",
-	"description" : "被选择的项目的方框、圆框和标题的颜色",
+	"displayname" : "边框和标题颜色",
+	"description" : "被选择的时间轴的方框、圆框和标题的颜色",
 	"type" : "color",
 	"default" : "#F26328"
 }, {
@@ -30,8 +30,8 @@
 	"default" : "18"
 },{
 	"name": "timeLine",
-	"displayname": "timeLine列表",
-	"description": "timeLine列表内容",
+	"displayname": "时间轴列表",
+	"description": "时间轴列表内容",
 	"type": "array",
 	"required": true,
 	"item": [
