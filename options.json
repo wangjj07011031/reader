@@ -1,63 +1,105 @@
-[{
-	"name" : "color",
-	"displayname" : "边框和标题的颜色",
-	"description" : "方框、圆框和标题的的默认颜色",
-	"type" : "color",
-	"default" : "#41838e"
-},{
-	"name" : "colorChecked",
-	"displayname" : "边框和标题颜色",
-	"description" : "被选择的时间轴的方框、圆框和标题的颜色",
-	"type" : "color",
-	"default" : "#F26328"
-}, {
-  	"name": "imgTitleFontSize",
-  	"displayname": "文字大小",
-  	"description": "设置图片文字大小",
-  	"type": "number",
-	"default" : "15"
-},{
-  	"name": "titleFontSize",
-  	"displayname": "文字大小",
-  	"description": "设置标题文字大小",
-  	"type": "number",
-	"default" : "26"
-},{
-  	"name": "textFontSize",
-  	"displayname": "文字大小",
-  	"description": "设置内容文字大小",
-  	"type": "number",
-	"default" : "18"
-},{
-	"name": "timeLine",
-	"displayname": "时间轴列表",
-	"description": "时间轴列表内容",
-	"type": "array",
-	"required": true,
-	"item": [
-		{
-			"name": "imgSrc",
-			"displayname": "图片路径",
-			"description": "图片路径",
-			"type": "file",
-			"required": true
-		},{
-			"name": "imgTitle",
-  			"displayname": "图片标题",
-  			"description": "图片标题文字",
-  			"type": "string",
-			"required": true
-		},{
-			"name": "title",
-  			"displayname": "标题",
-  			"description": "标题文字内容",
-  			"type": "string",
-			"required": true
-		},{
-			"name": "text",
-  			"displayname": "内容",
-  			"description": "文字内容",
-  			"type": "string",
-			"required": true
-		}]
-}]
+[
+	{
+		"name": "color",
+		"displayname": "边框和标题的颜色",
+		"description": "方框、圆框和标题的的默认颜色",
+		"type": "color",
+		"options": [
+			{
+				"text": "蓝色",
+				"value": "#41838e"
+			}, {
+				"text": "青色",
+				"value": "rgb(93,147,0)"
+			}, {
+				"text": "红色",
+				"value": "#ff0000"
+			}
+		],
+		"default": "#41838e"
+	}, {
+		"name": "colorChecked",
+		"displayname": "边框和标题颜色",
+		"description": "被选择的时间轴的方框、圆框和标题的颜色",
+		"type": "color",
+		"options": [
+			{
+				"text": "橙色",
+				"value": "#F26328"
+			}, {
+				"text": "浅橙",
+				"value": "rgb(217,117,37)"
+			}, {
+				"text": "黑色",
+				"value": "#000000"
+			}
+		],
+		"default": "#F26328"
+	}, {
+		"name": "imgTitleFontSize",
+		"displayname": "图片标题大小",
+		"description": "设置图片文字大小",
+		"type": "number",
+		"default": "15"
+	}, {
+		"name": "titleFontSize",
+		"displayname": "标题文字大小",
+		"description": "设置标题文字大小",
+		"type": "number",
+		"default": "26"
+	}, {
+		"name": "textFontSize",
+		"displayname": "内容文字大小",
+		"description": "设置内容文字大小",
+		"type": "number",
+		"default": "18"
+	}, {
+		"name": "direction",
+		"type": "string",
+		"description": "选择的版式",
+		"displayname": "时间轴排版选择",
+		"options": [
+			{
+				"text": "横板",
+				"value": "horizontal"
+			}, {
+				"text": "竖版",
+				"value": "vertical"
+			}
+		],
+		"default": "horizontal"
+	}, {
+		"name": "timeLine",
+		"displayname": "时间轴列表",
+		"description": "时间轴列表内容",
+		"type": "array",
+		"required": true,
+		"item": [
+			{
+				"name": "imgSrc",
+				"displayname": "图片路径",
+				"description": "图片路径",
+				"type": "file",
+				"required": true
+			}, {
+				"name": "imgTitle",
+				"displayname": "图片标题",
+				"description": "图片标题文字",
+				"type": "string",
+				"required": true
+			}, {
+				"name": "title",
+				"displayname": "标题",
+				"description": "标题文字内容",
+				"type": "string",
+				"required": true
+			}, {
+				"name": "text",
+				"displayname": "内容",
+				"description": "文字内容",
+				"type": "string",
+				"required": true
+			}
+		]
+	}
+]
